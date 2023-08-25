@@ -4,5 +4,5 @@ module.exports = pino({
   level: process.env.PINO_LOG_LEVEL || "info",
   colorize: true,
 },
- pino.destination("./utils/logs/serverLogs.log")
+ pino.destination("./utils/serverLogs.log")
 );
